@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Aviator - Plataforma de Jogos</title>
+    <title>Aviator Registration - Gaming Platform</title>
     <style>
         /* Animações */
         @keyframes pulse {
@@ -123,22 +123,22 @@
 
         .notification-flights {
             font-weight: bold;
-            color: #ffcc00; /* Cor amarela para os voos grátis */
+            color: #ffcc00; /* Yellow color for free flights */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="aviator-title">AVIATOR</div>
-        <h1>REGISTRE-SE AGORA</h1>
-        <p>Você será redirecionado(a) para a plataforma em <span id="countdown">3</span> segundos.</p>
+        <h1>REGISTER NOW</h1>
+        <p>You will be redirected to the platform at<span id="countdown">3</span> seconds.</p>
         <!-- O botão é um link que leva diretamente ao URL, caso o usuário clique antes do redirecionamento automático -->
-        <a href="https://txunaplay.com/tqae7qh70" class="register-button" id="registerButton">REGISTRE-SE AGORA</a>
+        <a href="https://record.zarpartners.co.za/_1dQ7ZoAg1tJhg6WO2I1rgWNd7ZgqdRLk/1/" class="register-button" id="registerButton">REGISTER NOW</a>
     </div>
 
     <script>
-        const REDIRECT_URL = "https://txunaplay.com/tqae7qh70";
-        let countdown = 3;
+        const REDIRECT_URL = "https://record.zarpartners.co.za/_1dQ7ZoAg1tJhg6WO2I1rgWNd7ZgqdRLk/1/";
+        let countdown = 2;
         const countdownElement = document.getElementById('countdown');
 
         // Função de contagem regressiva e redirecionamento
@@ -166,7 +166,7 @@
         function generateRandomNotification() {
             const name = getRandomElement(firstNames) + " " + getRandomElement(lastNames);
             const flights = getRandomElement(flightCounts);
-            return `<span class="notification-name">${name}</span> acabou de se registrar e recebeu <span class="notification-flights">${flights} Voos Grátis!</span>`;
+            return `<span class="notification-name">${name}</span> just registered and received <span class="notification-flights">${flights} Free Flights!</span>`;
         }
 
         function showNotification() {
